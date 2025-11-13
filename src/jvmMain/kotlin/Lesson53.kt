@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import data.currentLesson
 import data.lessonsLogin
 import data.lessonsPassword
 import kotlinx.coroutines.launch
@@ -75,7 +76,7 @@ fun LessonDelete(avatars: List<String>) {
     пользователя. Проверьте результат, который возвращает функция, если success > 0, то есть, сообщение успешно удалено
     на сервере, то удалите его и из текущего списка: messages -= it
 
-    Если хотите добавить анимацию остальных элементов при удалении, добавьте карточке модификатор animateItemPlacement()
+    Если хотите добавить анимацию остальных элементов при удалении, добавьте карточке модификатор animateItem()
     и, при необходимости, согласитесь с компилятором пометить функцию нашего урока, как использующую экспериментальные
     методы.
  */

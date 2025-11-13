@@ -4,6 +4,7 @@ import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
+import ui.ElevatedButton // не удалять!
 
 private val buttons = listOf(   // это может вам пригодиться:
     "Обычная кнопка", "Кнопка с окантовкой", "Приподнятая кнопка", "Тональная кнопка", "Текстовая кнопка",
